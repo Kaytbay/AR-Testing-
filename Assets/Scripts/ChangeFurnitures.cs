@@ -15,19 +15,19 @@ public class ChangeFurnitures : MonoBehaviour
         }
     }
 
-    public void nextFurniture()
-    {
-        furnitures[counter].SetActive(false);
-        counter = (counter + 1) % furnitures.Length;
-        furnitures[counter].SetActive(true);
-    }
+    //public void nextFurniture()
+    //{
+    //    furnitures[counter].SetActive(false);
+    //    counter = (counter + 1) % furnitures.Length;
+    //    furnitures[counter].SetActive(true);
+    //}
 
-    public void previousFurniture()
-    {
-        furnitures[counter].SetActive(false);
-        counter = (counter - 1 + furnitures.Length) % furnitures.Length;
-        furnitures[counter].SetActive(true);
-    }
+    //public void previousFurniture()
+    //{
+    //    furnitures[counter].SetActive(false);
+    //    counter = (counter - 1 + furnitures.Length) % furnitures.Length;
+    //    furnitures[counter].SetActive(true);
+    //}
 
     public void selectFurniture(int index)
     {
