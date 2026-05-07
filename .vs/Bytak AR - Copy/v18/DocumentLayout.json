@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Bytak AR - Copy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{977C311D-C8F3-50AE-5A22-7EC0AA0B430D}|Assembly-CSharp.csproj|d:\\bytak ar - copy\\assets\\scripts\\buttonsoundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{977C311D-C8F3-50AE-5A22-7EC0AA0B430D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonsoundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{977C311D-C8F3-50AE-5A22-7EC0AA0B430D}|Assembly-CSharp.csproj|D:\\Bytak AR - Copy\\assets\\scripts\\rotateandpinch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{977C311D-C8F3-50AE-5A22-7EC0AA0B430D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotateandpinch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RotateAndPinch.cs",
+              "DocumentMoniker": "D:\\Bytak AR - Copy\\Assets\\Scripts\\RotateAndPinch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RotateAndPinch.cs",
+              "ToolTip": "D:\\Bytak AR - Copy\\Assets\\Scripts\\RotateAndPinch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RotateAndPinch.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAuwIoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T14:17:10.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ButtonSoundManager.cs",
+              "DocumentMoniker": "D:\\Bytak AR - Copy\\Assets\\Scripts\\ButtonSoundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonSoundManager.cs",
+              "ToolTip": "D:\\Bytak AR - Copy\\Assets\\Scripts\\ButtonSoundManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonSoundManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T15:00:39.202Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

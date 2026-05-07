@@ -9,7 +9,6 @@ public class ChangeFurnitures : MonoBehaviour
 
     void Start()
     {
-        // Ensure only the first furniture is active at the beginning
         for (int i = 0; i < furnitures.Length; i++)
         {
             furnitures[i].SetActive(i == counter);
@@ -18,15 +17,25 @@ public class ChangeFurnitures : MonoBehaviour
 
     public void nextFurniture()
     {
-        furnitures[counter].SetActive(false); // deactivate current
+        furnitures[counter].SetActive(false);
         counter = (counter + 1) % furnitures.Length;
-        furnitures[counter].SetActive(true);  // activate next
+        furnitures[counter].SetActive(true);
     }
 
     public void previousFurniture()
     {
-        furnitures[counter].SetActive(false); // deactivate current
+        furnitures[counter].SetActive(false);
         counter = (counter - 1 + furnitures.Length) % furnitures.Length;
-        furnitures[counter].SetActive(true);  // activate previous
+        furnitures[counter].SetActive(true);
+    }
+
+    public void selectFurniture(int index)
+    {
+        if (index < 0 || index >= furnitures.Length) return;
+        if (index == counter) return;
+
+        furnitures[counter].SetActive(false);
+        counter = index;
+        furnitures[counter].SetActive(true);
     }
 }

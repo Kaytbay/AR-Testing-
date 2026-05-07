@@ -6,6 +6,7 @@ public class MenuController : MonoBehaviour
     public void StartAR()
     {
         SceneManager.LoadScene("SampleScene");
+        Debug.Log("START");
     }
 
 }

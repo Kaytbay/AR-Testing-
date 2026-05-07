@@ -12,7 +12,6 @@ public class ButtonSoundManager : MonoBehaviour
 
     void Awake()
     {
-        // Grab or add the AudioSource on this GameObject
         audioSource = GetComponent<AudioSource>();
         audioSource.playOnAwake = false;
         audioSource.spatialBlend = 0f; // 2D sound for UI
@@ -26,7 +25,6 @@ public class ButtonSoundManager : MonoBehaviour
             return;
         }
 
-        // Hook our PlayClick method to the button's OnClick
         aboutUsButton.onClick.AddListener(PlayClickSound);
     }
 

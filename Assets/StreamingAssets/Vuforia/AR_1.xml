@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="i7" size="5.000000 9.384164" />
+    <ImageTarget name="l6" size="6.000000 2.728125" />
+    <ImageTarget name="l5" size="6.000000 2.728125" />
+    <ImageTarget name="l4" size="5.000000 2.277344" />
+  </Tracking>
+</QCARConfig>

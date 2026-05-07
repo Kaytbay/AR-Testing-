@@ -22,12 +22,48 @@ public class RotateAndPinch : MonoBehaviour
 
     void Update()
     {
+#if UNITY_EDITOR
+        // --- 1. Testing Rotation (Click & Drag) ---
+        if (Input.GetMouseButton(0)) // 0 means Left Mouse Button
+        {
+            // Prevent interaction if clicking on UI (like START button)
+            if (!EventSystem.current.IsPointerOverGameObject())
+            {
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                if (Physics.Raycast(ray, out RaycastHit hit))
+                {
+                    if (hit.transform.IsChildOf(transform))
+                    {
+                        // Get mouse movement on X axis
+                        float deltaX = Input.GetAxis("Mouse X") * rotationSpeed * 10f;
+                        transform.Rotate(0f, -deltaX, 0f, Space.World);
+                    }
+                }
+            }
+        }
+
+        // --- 2. Testing Scale / Pinch (Mouse Scroll Wheel) ---
+        float scroll = Input.mouseScrollDelta.y;
+        if (scroll != 0f)
+        {
+            // You can adjust the 0.05f to make zooming faster or slower
+            float scaleFactor = scroll * 0.05f;
+            Vector3 newScale = transform.localScale + new Vector3(scaleFactor, scaleFactor, scaleFactor);
+
+            // Optional: Prevent the object from scaling down to zero or negative
+            if (newScale.x > 0.1f)
+            {
+                transform.localScale = newScale;
+            }
+        }
+#endif
+
         // No touches -> reset state
         if (Input.touchCount == 0)
         {
             isRotating = false;
             rotateFingerId = -1;
-            return;
+            return; 
         }
 
         // Two-finger pinch -> scale
@@ -68,8 +104,8 @@ public class RotateAndPinch : MonoBehaviour
 
                     if (Physics.Raycast(ray, out RaycastHit hit))
                     {
-                        // 2. Use IsChildOf: This ensures the touch registers whether it 
-                        // hits the main parent object or any of its child meshes/colliders.
+                      
+                        // hits the main parent object or any of its child
                         if (hit.transform.IsChildOf(transform))
                         {
                             isRotating = true;
@@ -81,9 +117,6 @@ public class RotateAndPinch : MonoBehaviour
                 case TouchPhase.Moved:
                     if (isRotating && touch.fingerId == rotateFingerId)
                     {
-                        // Note: touch.deltaPosition is measured in screen pixels. 
-                        // On high-res mobile screens, this value is massive. Ensure your 
-                        // 'rotationSpeed' variable in the Inspector is set to a very small decimal (e.g., 0.1f).
                         float deltaX = touch.deltaPosition.x * rotationSpeed;
                         transform.Rotate(0f, -deltaX, 0f, Space.World);
                     }
