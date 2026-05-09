@@ -1,26 +1,24 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Bytak AR - Copy\\Assets\\Scripts\\",
+  "WorkspaceRootPath": "D:\\Bytak AR\\Assets\\Scripts\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bytak AR - Copy\\Assets\\Scripts\\ButtonSoundManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ButtonSoundManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bytak AR - Copy\\Assets\\Scripts\\MenuController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MenuController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bytak AR - Copy\\Assets\\Scripts\\PhysicsSetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PhysicsSetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bytak AR - Copy\\Assets\\Scripts\\RotateAndPinch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bytak AR\\Assets\\Scripts\\RotateAndPinch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RotateAndPinch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bytak AR - Copy\\Assets\\Scripts\\ChangeFurnitures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bytak AR\\Assets\\Scripts\\ChangeFurnitures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ChangeFurnitures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bytak AR - Copy\\Assets\\Scripts\\ButtonSoundManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bytak AR\\Assets\\Scripts\\MenuController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MenuController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Bytak AR - Copy\\Assets\\Scripts\\PhysicsSetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +28,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,68 +40,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ChangeFurnitures.cs",
-              "DocumentMoniker": "D:\\Bytak AR - Copy\\Assets\\Scripts\\ChangeFurnitures.cs",
+              "DocumentMoniker": "D:\\Bytak AR\\Assets\\Scripts\\ChangeFurnitures.cs",
               "RelativeDocumentMoniker": "ChangeFurnitures.cs",
-              "ToolTip": "D:\\Bytak AR - Copy\\Assets\\Scripts\\ChangeFurnitures.cs",
+              "ToolTip": "D:\\Bytak AR\\Assets\\Scripts\\ChangeFurnitures.cs",
               "RelativeToolTip": "ChangeFurnitures.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T12:53:13.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "RotateAndPinch.cs",
-              "DocumentMoniker": "D:\\Bytak AR - Copy\\Assets\\Scripts\\RotateAndPinch.cs",
+              "DocumentMoniker": "D:\\Bytak AR\\Assets\\Scripts\\RotateAndPinch.cs",
               "RelativeDocumentMoniker": "RotateAndPinch.cs",
-              "ToolTip": "D:\\Bytak AR - Copy\\Assets\\Scripts\\RotateAndPinch.cs",
+              "ToolTip": "D:\\Bytak AR\\Assets\\Scripts\\RotateAndPinch.cs",
               "RelativeToolTip": "RotateAndPinch.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-05T12:53:49.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PhysicsSetup.cs",
               "DocumentMoniker": "D:\\Bytak AR - Copy\\Assets\\Scripts\\PhysicsSetup.cs",
-              "RelativeDocumentMoniker": "PhysicsSetup.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Bytak AR - Copy\\Assets\\Scripts\\PhysicsSetup.cs",
               "ToolTip": "D:\\Bytak AR - Copy\\Assets\\Scripts\\PhysicsSetup.cs",
-              "RelativeToolTip": "PhysicsSetup.cs",
+              "RelativeToolTip": "..\\..\\..\\Bytak AR - Copy\\Assets\\Scripts\\PhysicsSetup.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T12:53:43.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-05T12:53:43.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MenuController.cs",
-              "DocumentMoniker": "D:\\Bytak AR - Copy\\Assets\\Scripts\\MenuController.cs",
+              "DocumentMoniker": "D:\\Bytak AR\\Assets\\Scripts\\MenuController.cs",
               "RelativeDocumentMoniker": "MenuController.cs",
-              "ToolTip": "D:\\Bytak AR - Copy\\Assets\\Scripts\\MenuController.cs",
+              "ToolTip": "D:\\Bytak AR\\Assets\\Scripts\\MenuController.cs",
               "RelativeToolTip": "MenuController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T12:53:40.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-05T12:53:40.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ButtonSoundManager.cs",
               "DocumentMoniker": "D:\\Bytak AR - Copy\\Assets\\Scripts\\ButtonSoundManager.cs",
-              "RelativeDocumentMoniker": "ButtonSoundManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Bytak AR - Copy\\Assets\\Scripts\\ButtonSoundManager.cs",
               "ToolTip": "D:\\Bytak AR - Copy\\Assets\\Scripts\\ButtonSoundManager.cs",
-              "RelativeToolTip": "ButtonSoundManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\Bytak AR - Copy\\Assets\\Scripts\\ButtonSoundManager.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T12:52:59.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-05T12:52:59.147Z"
             }
           ]
         }
