@@ -4,29 +4,19 @@ using UnityEngine.EventSystems;
 public class RotateAndPinch : MonoBehaviour
 {
     public float rotationSpeed = 0.2f;
-    public float zoomSpeed = 0.01f;
-
     public Vector2 scaleBounds = new Vector2(0.5f, 2.0f);
 
-    private bool isRotating = false;
-    private int rotateFingerId = -1;
     private float initialPinchDistance;
     private Vector3 initialScale;
 
-    void Awake()
-    {
-        // Ensure collider exists for raycasting
-        if (GetComponent<Collider>() == null)
-            gameObject.AddComponent<BoxCollider>();
-    }
-
     void Update()
     {
+        #region lap test
+
 #if UNITY_EDITOR
         // --- 1. Testing Rotation (Click & Drag) ---
-        if (Input.GetMouseButton(0)) // 0 means Left Mouse Button
+        if (Input.GetMouseButton(0))
         {
-            // Prevent interaction if clicking on UI (like START button)
             if (!EventSystem.current.IsPointerOverGameObject())
             {
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -34,7 +24,6 @@ public class RotateAndPinch : MonoBehaviour
                 {
                     if (hit.transform.IsChildOf(transform))
                     {
-                        // Get mouse movement on X axis
                         float deltaX = Input.GetAxis("Mouse X") * rotationSpeed * 10f;
                         transform.Rotate(0f, -deltaX, 0f, Space.World);
                     }
@@ -46,25 +35,15 @@ public class RotateAndPinch : MonoBehaviour
         float scroll = Input.mouseScrollDelta.y;
         if (scroll != 0f)
         {
-            // You can adjust the 0.05f to make zooming faster or slower
             float scaleFactor = scroll * 0.05f;
             Vector3 newScale = transform.localScale + new Vector3(scaleFactor, scaleFactor, scaleFactor);
-
-            // Optional: Prevent the object from scaling down to zero or negative
             if (newScale.x > 0.1f)
             {
                 transform.localScale = newScale;
             }
         }
 #endif
-
-        // No touches -> reset state
-        if (Input.touchCount == 0)
-        {
-            isRotating = false;
-            rotateFingerId = -1;
-            return; 
-        }
+        #endregion
 
         // Two-finger pinch -> scale
         if (Input.touchCount == 2)
@@ -74,7 +53,6 @@ public class RotateAndPinch : MonoBehaviour
 
             if (t1.phase == TouchPhase.Began)
             {
-                // Initialize pinch
                 initialPinchDistance = Vector2.Distance(t0.position, t1.position);
                 initialScale = transform.localScale;
             }
@@ -85,51 +63,24 @@ public class RotateAndPinch : MonoBehaviour
                 float targetScale = Mathf.Clamp(initialScale.x * scaleFactor, scaleBounds.x, scaleBounds.y);
                 transform.localScale = Vector3.one * targetScale;
             }
-            return; // skip rotation when pinching
+            return;
         }
+
+
+
 
         // Single-finger rotate
         if (Input.touchCount == 1)
         {
             Touch touch = Input.GetTouch(0);
 
-            // 1. Prevent raycasting if the touch started on a UI Canvas element
             if (EventSystem.current.IsPointerOverGameObject(touch.fingerId))
                 return;
 
-            switch (touch.phase)
+            if (touch.phase == TouchPhase.Moved)
             {
-                case TouchPhase.Began:
-                    Ray ray = Camera.main.ScreenPointToRay(touch.position);
-
-                    if (Physics.Raycast(ray, out RaycastHit hit))
-                    {
-                      
-                        // hits the main parent object or any of its child
-                        if (hit.transform.IsChildOf(transform))
-                        {
-                            isRotating = true;
-                            rotateFingerId = touch.fingerId;
-                        }
-                    }
-                    break;
-
-                case TouchPhase.Moved:
-                    if (isRotating && touch.fingerId == rotateFingerId)
-                    {
-                        float deltaX = touch.deltaPosition.x * rotationSpeed;
-                        transform.Rotate(0f, -deltaX, 0f, Space.World);
-                    }
-                    break;
-
-                case TouchPhase.Ended:
-                case TouchPhase.Canceled:
-                    if (touch.fingerId == rotateFingerId)
-                    {
-                        isRotating = false;
-                        rotateFingerId = -1;
-                    }
-                    break;
+                float deltaX = touch.deltaPosition.x * rotationSpeed;
+                transform.Rotate(0f, -deltaX, 0f, Space.World);
             }
         }
     }

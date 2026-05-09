@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Bytak AR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC779A2C-1846-69CD-6684-2C8BE67C79EB}|Assembly-CSharp.csproj|d:\\bytak ar\\assets\\scripts\\buttonsoundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC779A2C-1846-69CD-6684-2C8BE67C79EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonsoundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC779A2C-1846-69CD-6684-2C8BE67C79EB}|Assembly-CSharp.csproj|D:\\Bytak AR\\Assets\\Scripts\\ChangeFurnitures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC779A2C-1846-69CD-6684-2C8BE67C79EB}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\ChangeFurnitures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC779A2C-1846-69CD-6684-2C8BE67C79EB}|Assembly-CSharp.csproj|D:\\Bytak AR\\assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC779A2C-1846-69CD-6684-2C8BE67C79EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC779A2C-1846-69CD-6684-2C8BE67C79EB}|Assembly-CSharp.csproj|d:\\bytak ar\\assets\\scripts\\rotateandpinch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC779A2C-1846-69CD-6684-2C8BE67C79EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotateandpinch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ButtonSoundManager.cs",
-              "DocumentMoniker": "D:\\Bytak AR\\Assets\\Scripts\\ButtonSoundManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonSoundManager.cs",
-              "ToolTip": "D:\\Bytak AR\\Assets\\Scripts\\ButtonSoundManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ButtonSoundManager.cs",
+              "DocumentIndex": 2,
+              "Title": "RotateAndPinch.cs",
+              "DocumentMoniker": "D:\\Bytak AR\\Assets\\Scripts\\RotateAndPinch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RotateAndPinch.cs",
+              "ToolTip": "D:\\Bytak AR\\Assets\\Scripts\\RotateAndPinch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RotateAndPinch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:26:14.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\Bytak AR\\Assets\\Scripts\\MenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuController.cs",
+              "ToolTip": "D:\\Bytak AR\\Assets\\Scripts\\MenuController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T18:01:28.641Z",
+              "WhenOpened": "2026-05-09T12:26:14.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChangeFurnitures.cs",
+              "DocumentMoniker": "D:\\Bytak AR\\Assets\\Scripts\\ChangeFurnitures.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ChangeFurnitures.cs",
+              "ToolTip": "D:\\Bytak AR\\Assets\\Scripts\\ChangeFurnitures.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ChangeFurnitures.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T12:14:35.873Z",
               "EditorCaption": ""
             }
           ]
