@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Bytak AR\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC779A2C-1846-69CD-6684-2C8BE67C79EB}|Assembly-CSharp.csproj|d:\\bytak ar\\assets\\scripts\\camerafocus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC779A2C-1846-69CD-6684-2C8BE67C79EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafocus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC779A2C-1846-69CD-6684-2C8BE67C79EB}|Assembly-CSharp.csproj|D:\\Bytak AR\\assets\\scripts\\changefurnitures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC779A2C-1846-69CD-6684-2C8BE67C79EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\changefurnitures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC779A2C-1846-69CD-6684-2C8BE67C79EB}|Assembly-CSharp.csproj|D:\\Bytak AR\\assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC779A2C-1846-69CD-6684-2C8BE67C79EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC779A2C-1846-69CD-6684-2C8BE67C79EB}|Assembly-CSharp.csproj|D:\\Bytak AR\\assets\\scripts\\rotateandpinch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC779A2C-1846-69CD-6684-2C8BE67C79EB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rotateandpinch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +35,55 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChangeFurnitures.cs",
+              "DocumentMoniker": "D:\\Bytak AR\\Assets\\Scripts\\ChangeFurnitures.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ChangeFurnitures.cs",
+              "ToolTip": "D:\\Bytak AR\\Assets\\Scripts\\ChangeFurnitures.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ChangeFurnitures.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKmSURBVDhP7dFPSJNxHAbw5/vunQ3xbU4naqaSMxObhTkqA\u002B3PQUrwEISU9AfyX6dyEd0ko1NQblYQKdLB1ENKsDoEUSEWNrc0LaxMDwnmdJbOmZtu7/vtkBvvpZMdfW7fHx94HvgBG1lvCAC\u002BL3w39Hzr0T358gifvZPISMqAtdCK0sQCf3KyeSmCO0Y6DFpBG6owVywxXxPah01GY6zRV5ZTthIxAgAEggGboJA7xBo3iWG3qJA7Rhbdv2RNXQQCQDAUtPlX/XUA0D5sMobl0HPP0lSJ2ogAcGfIliAK4pbdibtcC8GFe4VJFpvT40wY8AxIavxwtCWBAQkAWj/aNQpiksHQqQ0BQE5LliNzc6ZUnFLSKjMcRFTX73lTuxTyd53Lr\u002Br8HfBX2j80wbfiO0VEPwD0MjgOQC0Yz0x609g2aftY94nuThEAvMuz8Aa8vS9Ovu5cK7ptbsuNJYUnREXUg4TCv/WkZ2YQoRBMOhC0IM4GSNIIUKIzDfY4h6FZaow\u002B/CNqZ2yKTY23S1PxzVK52gjq43\u002BEsNYMosH5S/7oSnNbbgMB49aCq\u002BOLq74G29At\u002BFYX94LZR8BXJugAKgZ4xKTPnsnSm1yPj/fcEAEgTUpHupR\u002BsKivqFI2wEHzVNc7\u002Ber04qqvKyyE3zMrgwAA5h1rnzIIcBzA\u002B8GYAPMYyzQRXXjl5WVHWJHLF1cWXE5P/90jGaV2ZiVBVuTr9489iK4\u002B0L7PwcBg/xlnY3H7nlQFWjeYLrw9\u002B\u002B5pxAgAUJVXM58amzLtmnFt9Qbmbo7OfVo5lHZ4\u002BmJBvT8CAaA6r2a\u002BemetHwBq8uvl83k1s1Xm2qDaCAAgh2QrWLCILFtkkIUgWkRNyAINWtRY3sRWXuYWANCN6X4qWj5KPupTm42sP38A\u002BPobLn6iw4AAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-05-09T13:26:34.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CameraFocus.cs",
+              "DocumentMoniker": "D:\\Bytak AR\\Assets\\Scripts\\CameraFocus.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFocus.cs",
+              "ToolTip": "D:\\Bytak AR\\Assets\\Scripts\\CameraFocus.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFocus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:26:34.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RotateAndPinch.cs",
+              "DocumentMoniker": "D:\\Bytak AR\\Assets\\Scripts\\RotateAndPinch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RotateAndPinch.cs",
+              "ToolTip": "D:\\Bytak AR\\Assets\\Scripts\\RotateAndPinch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RotateAndPinch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:26:34.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\Bytak AR\\Assets\\Scripts\\MenuController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuController.cs",
+              "ToolTip": "D:\\Bytak AR\\Assets\\Scripts\\MenuController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:26:34.526Z"
             }
           ]
         }
